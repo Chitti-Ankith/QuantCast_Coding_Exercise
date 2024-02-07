@@ -20,7 +20,8 @@ Wrote a command line program in C++ to process the log file and return the most 
 
 ## Usage
 
-**NOTE** : It is better to compile the program using C++ 17 in order to avoid dependency warnings.
+**NOTE** : It is better to compile the program using C++ 17 in order to avoid dependency warnings.  
+  
 Command to compile the program:
 
 ```bat
@@ -35,7 +36,7 @@ We can now run the program as follows:
 
 ## Implementation Details
 
-* The code throws and error if the imput file is not present.
+* The code throws an error if the input file is not present.
 * Validations are present to check for the validity of the date as well as its UTC format.
 * If multiple cookies are deemed to be most active for a specific day, we output all of them (No ordering is guaranteed for the results here)
 
